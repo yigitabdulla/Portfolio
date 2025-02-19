@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import './style.scss';
 import { projects } from './projects';
 
+//git try
+
 function App() {
   const [selectedProject, setSelectedProject] = useState(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
