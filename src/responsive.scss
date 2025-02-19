@@ -1,0 +1,20 @@
+@mixin sm {
+    @media (max-width: 738px) {
+      @content;
+      background-color: rosybrown;
+    }
+  }
+  
+  @mixin md {
+    @media (max-width: 1024px) {
+      @content;
+      background-color: skyblue;
+    }
+  }
+  
+  @mixin lg {
+    @media (max-width: 1366px) {
+      @content;
+      background-color: aquamarine;
+    }
+  }
